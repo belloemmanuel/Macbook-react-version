@@ -1,0 +1,483 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  /* overflow-y: hidden; */
+}
+
+h3 {
+  font-size: 32px;
+}
+
+/*--------------signup starts-------------------*/
+
+.signup-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  height: auto;
+  flex-wrap: wrap;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  align-content: center;
+  margin-left: 150px;
+}
+
+.signup-form-heading > p {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.signup-form-inputs {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+input {
+  padding: 15px 0px 15px 20px;
+  margin-top: 20px;
+  width: 26rem;
+  border-radius: 6px;
+  border: 1px solid whitesmoke;
+  box-shadow: rgba(99, 99, 99, 0.2) 5px 2px 10px -5px;
+}
+
+input:focus {
+  outline: none;
+}
+
+input[type] {
+  color: #aaa;
+}
+
+::-webkit-input-placeholder {
+  color: #aaa;
+}
+
+.signup-form-buttons {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.createaccountbtn {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 6px;
+  background-color: #3a3a3a;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 99%;
+}
+
+.createaccountbtn:hover {
+  background-color: black;
+}
+
+.googlebtn {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 6px;
+  margin-top: 16px;
+  background-color: white;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  border: 3px solid #3a3a3a;
+  width: 99%;
+}
+
+.googlebtn:hover {
+  background-color: black;
+  color: white;
+  border: 3px solid #3a3a3a;
+}
+
+.googlebtn > img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.googlebtn > p {
+  margin-top: 2px;
+}
+
+.signup-form-footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+span > a {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+
+span > a:hover {
+  color: #aaa;
+}
+
+/*--------------signup ends-------------------*/
+
+/*-----------------login----------------------*/
+
+.login-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  height: auto;
+  flex-wrap: wrap;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin-top: 100px;
+  margin-right: 200px;
+}
+
+.login-form-heading > p {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.login-form-inputs {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.login-form-footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.login-form-buttons {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+/*-----------------login ends-------------------*/
+
+/*----------forget password starts--------------*/
+
+.forgetpassword-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  height: auto;
+  flex-wrap: wrap;
+}
+
+.forgetpassword-form {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin-top: 100px;
+  margin-right: 200px;
+}
+
+.forgetpassword-form-heading > p {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.forgetpassword-form-inputs {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.forgetpassword-form-footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.forgetpassword-form-buttons {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+/*----------forget password ends--------------*/
+
+/*-----------------verifycode start-----------------*/
+
+.verifycode-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  height: auto;
+  flex-wrap: wrap;
+}
+
+.verifycode-form {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin-top: 100px;
+  margin-right: 250px;
+}
+
+.verifycode-form-heading > p {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.verifycode-form-inputs {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.verifycode-form-footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.verifycode-form-buttons {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  display: none;
+}
+
+.token {
+  width: 50px;
+}
+
+/*-----------------verifycode end-----------------*/
+
+/*-----------------signup arrow starts----------------*/
+
+.signup-img img {
+  position: relative;
+}
+
+.signup-img button {
+  position: absolute;
+  color: white;
+  z-index: 999;
+  top: 50%;
+  padding: 15px;
+  border: none;
+  background-color: #3a3a3a69;
+  font-size: 32px;
+}
+
+.signup-img button:hover {
+  background-color: #07070769;
+}
+
+.signup-img .next {
+  right: 0;
+}
+
+/*-----------------signup arrow ends----------------*/
+
+/*-----------------login arrow starts----------------*/
+
+.login-img img {
+  position: relative;
+}
+
+.login-img button {
+  position: absolute;
+  color: white;
+  z-index: 999;
+  top: 50%;
+  padding: 15px;
+  border: none;
+  background-color: #3a3a3a69;
+  font-size: 32px;
+}
+
+.login-img button:hover {
+  background-color: #07070769;
+}
+
+.login-img .prev {
+  left: 0;
+}
+
+.login-img .next {
+  margin-left: -47px;
+}
+
+/*-----------------loginarrow ends----------------*/
+
+/*-----------------verifycode arrow----------------*/
+
+.verifycode-img img {
+  position: relative;
+}
+
+.verifycode-img button {
+  position: absolute;
+  color: white;
+  z-index: 999;
+  top: 50%;
+  padding: 15px;
+  border: none;
+  background-color: #3a3a3a69;
+  font-size: 32px;
+}
+
+.verifycode-img button:hover {
+  background-color: #07070769;
+}
+
+.verifycode-img .prev {
+  left: 0;
+}
+
+.verifycode-img .next {
+  margin-left: -47px;
+}
+
+/*-----------------verifycode arrow ends----------------*/
+
+/*-----------------forgetpassword arrow ends----------------*/
+
+.forgetpassword-img img {
+  position: relative;
+}
+
+.forgetpassword-img button {
+  position: absolute;
+  color: white;
+  z-index: 999;
+  top: 50%;
+  padding: 15px;
+  border: none;
+  background-color: #3a3a3a69;
+  font-size: 32px;
+}
+
+.forgetpassword-img button:hover {
+  background-color: #07070769;
+}
+
+.forgetpassword-img .prev {
+  left: 0;
+}
+
+.forgetpassword-img .next {
+  margin-left: -47px;
+}
+
+.fa-eye {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.fa-eye-slash {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-right: 15px;
+  margin-bottom: 16px;
+  display: none;
+}
+
+/*-----------------forgetpassword arrow ends----------------*/
+
+@media (max-width: 1500px) {
+  .signup-img {
+    display: none;
+  }
+  .signup-form {
+    margin-left: 10px;
+  }
+
+  .signup-container {
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .signup-form-heading {
+    text-align: center;
+  }
+
+  .login-img {
+    display: none;
+  }
+  .login-form {
+    margin-right: 10px;
+  }
+
+  .login-container {
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .login-form-heading {
+    text-align: center;
+  }
+
+  .forgetpassword-img {
+    display: none;
+  }
+  .forgetpassword-form {
+    margin-right: 10px;
+  }
+
+  .forgetpassword-container {
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .forgetpassword-form-heading {
+    text-align: center;
+  }
+
+  .verifycode-img {
+    display: none;
+  }
+  .verifycode-form {
+    margin-right: 10px;
+  }
+
+  .verifycode-container {
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .verifycode-form-heading {
+    text-align: center;
+  }
+
+  input {
+    width: 99%;
+  }
+}
